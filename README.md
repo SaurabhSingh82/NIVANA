@@ -1,17 +1,17 @@
 # NIVANA
 
-NIVANA is a full-stack web application project that combines a React-based front end with a structured Node.js backend. The repository is designed as a modern UI experience with authentication, API integration, data visualization, and audio/visual enhancement support.
+NIVANA is a full-stack MERN wellness application designed to support mental health, mood tracking, assessments, dashboards, and wellbeing tools. It combines a React front end with a Node.js backend and secure JWT-protected API services.
 
 ## What This Project Is About
 
-NIVANA brings together a polished interactive user interface and a backend architecture to support real-world application workflows. The project is built around:
+NIVANA is built as an integrated wellness platform that supports:
 
-- A React + Vite front end that prioritizes performance and smooth animations.
-- A backend layout organized into controllers, routes, services, models, and middleware.
-- Integration support for JWT-based authentication, email sending, and RESTful API endpoints.
-- Visual and audio enhancements using libraries like Framer Motion, GSAP, Three.js, Vanta, and themed sound assets.
+- Authentication and secure user management with JWT.
+- Mood tracking, wellness assessments, progress dashboards, and support tools.
+- A responsive React experience that enables smooth interaction and dashboard visualization.
+- Backend APIs and services that protect user data and power application workflows.
 
-The goal is to provide a foundation for a responsive dashboard or experience-driven web application where UI, authentication, and backend services work together.
+This project is now the Nivana wellness app, designed to help users monitor their mood, complete self-assessments, and access personalized wellness resources.
 
 ## Key Features
 
@@ -24,15 +24,15 @@ The goal is to provide a foundation for a responsive dashboard or experience-dri
 
 ## Tech Stack
 
-- React 19
-- Vite
-- Tailwind CSS
-- Styled Components
-- Node.js backend patterns
-- Axios for client-server HTTP communication
-- JWT for authentication flows
-- Recharts for data visualization
-- Framer Motion, GSAP, Three.js, and Vanta for UI animation and effects
+- React.js
+- Node.js
+- Express-style backend architecture
+- MongoDB-compatible REST API patterns
+- JWT-secured authentication and protected routes
+- Gemini API-powered self-assessment engine with fallback handling
+- Axios for HTTP communication
+- Recharts and dashboard visualization tools
+- Framer Motion, GSAP, Three.js, and Vanta for UI animations and immersive effects
 
 ## Installation
 
