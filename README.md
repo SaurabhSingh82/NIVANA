@@ -1,21 +1,26 @@
 # NIVANA
 
-NIVANA is a modern web application built with React, Vite, and Tailwind CSS. It combines a polished front-end experience with a backend API layer, authentication support, and rich interactive UI components to deliver a responsive and user-friendly product.
+NIVANA is a full-stack web application project that combines a React-based front end with a structured Node.js backend. The repository is designed as a modern UI experience with authentication, API integration, data visualization, and audio/visual enhancement support.
 
-## Project Overview
+## What This Project Is About
 
-- **Frontend:** React with Vite, styled-components, Tailwind CSS, and animation libraries.
-- **Backend:** Node.js with Express-style patterns for controllers, services, models, routes, and middleware.
-- **Features:** Authentication, REST API support, email handling, chart rendering, and visual effects.
+NIVANA brings together a polished interactive user interface and a backend architecture to support real-world application workflows. The project is built around:
+
+- A React + Vite front end that prioritizes performance and smooth animations.
+- A backend layout organized into controllers, routes, services, models, and middleware.
+- Integration support for JWT-based authentication, email sending, and RESTful API endpoints.
+- Visual and audio enhancements using libraries like Framer Motion, GSAP, Three.js, Vanta, and themed sound assets.
+
+The goal is to provide a foundation for a responsive dashboard or experience-driven web application where UI, authentication, and backend services work together.
 
 ## Key Features
 
-- Responsive React user interface
-- Secure authentication using JSON Web Tokens
-- Interactive charts and data visualizations with Recharts
-- Motion and animation with Framer Motion and GSAP
-- 3D and visual effects support via Three.js and Vanta
-- Backend email notifications via Nodemailer
+- Responsive React UI powered by Vite
+- Backend-ready structure for routes, controllers, and services
+- Authentication support via JSON Web Tokens
+- Data visuals and interactive charting support
+- Rich motion and animation capabilities
+- Audio/visual assets included for enhanced presentation
 
 ## Tech Stack
 
@@ -23,10 +28,11 @@ NIVANA is a modern web application built with React, Vite, and Tailwind CSS. It 
 - Vite
 - Tailwind CSS
 - Styled Components
-- TypeScript tooling support with React type definitions
-- Node.js backend architecture
-- Axios for HTTP requests
-- JWT for authentication
+- Node.js backend patterns
+- Axios for client-server HTTP communication
+- JWT for authentication flows
+- Recharts for data visualization
+- Framer Motion, GSAP, Three.js, and Vanta for UI animation and effects
 
 ## Installation
 
@@ -65,17 +71,15 @@ npm run preview
 
 ## Repository Structure
 
-- `Backend/` — backend controllers, middleware, models, routes, and services
-- `public/` — static assets and sounds
-- `src/` — frontend React application code
-- `src/components/` — reusable UI components
-- `src/contexts/` — React context providers
-- `src/services/` — frontend service utilities
+- `Backend/` — server-side controllers, middleware, models, routes, and services
+- `Nivana/` — front-end application code, package manifest, and public assets
+- `Nivana/public/` — static assets and sound files
+- `Nivana/src/` — front-end source structure for components, contexts, and services
 
 ## Notes
 
-- Ensure your backend environment variables are configured before running the project in production.
-- Customize email and authentication settings in the backend service files as needed.
+- Configure backend environment variables before deploying or running in production.
+- Adjust authentication, email, and API endpoints to match your deployment environment.
 
 ## License
 
